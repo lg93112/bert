@@ -1,6 +1,8 @@
 ## BERT for mood detection task
 1.firstly download pre-trained model from google, and put to a folder(e.g.BERT_BASE_DIR). We use BERT-Base, Uncased pretrained model.
+
 2. secondly all data have been put under Mood directory
+
 3. To fine-tune and train the BERT model, run following command:
 python run_classifier.py \
   --task_name=mood \
@@ -16,7 +18,7 @@ python run_classifier.py \
   --num_train_epochs=3 \
   --output_dir=outputs/mood/
   
- 4. To test BERT model on test examples, run following command:
+4. To test BERT model on test examples, run following command:
  python run_classifier.py \
   --task_name=mood \
   --do_predict=true \
