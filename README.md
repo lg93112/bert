@@ -1,4 +1,5 @@
 ## BERT for mood detection task
+
 1.firstly download pre-trained model from google, and put to a folder(e.g.BERT_BASE_DIR). We use BERT-Base, Uncased pretrained model.
 
 2. secondly all data have been put under Mood directory
