@@ -2,7 +2,7 @@
 
 1. Download pre-trained model from google, and put to a folder(e.g.BERT_BASE_DIR). We use BERT-Base, Uncased pretrained model.
 
-2. Secondly all data have been put under Mood directory
+2. All data have been put under Mood directory
 
 3. To fine-tune and train the BERT model, run following command:
 python run_classifier.py \
