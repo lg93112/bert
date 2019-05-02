@@ -31,4 +31,4 @@ python run_classifier.py \
   --max_seq_length=128 \
   --output_dir=outputs/mood/
   
- 5.Run score.py to generate EM, f1 and mood metric for our task.
+ 5.Run scores.py to generate EM, f1 and mood metric for our task.
